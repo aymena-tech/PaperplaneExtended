@@ -41,7 +41,7 @@ if version_info[0] < 3 or version_info[1] < 6:
 # Check if the config was edited by using the already used variable.
 # Basically, its the 'virginity check' for the config file ;)
 CONFIG_CHECK = os.environ.get(
-    "___________PLOX_______REMOVE_____THIS_____LINE__________", None)
+   
 
 if CONFIG_CHECK:
     LOGS.info(
@@ -50,14 +50,14 @@ if CONFIG_CHECK:
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY", None)
-API_HASH = os.environ.get("API_HASH", None)
+API_KEY = os.environ.get("1444759",)
+API_HASH = os.environ.get("45e9dca97738b9443824241cc0b18573")
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("1BJWap1sBu2XfP14d4L_v7PnhQRmnOL6c3cyjzUVx037IuEdlOin6vW8K1Mau-Tl9TRzjrpARWYUplC5ibMcS6mPULwaok715fMkTCTtxsMFqP7ZyrZcAjddHyV5_2XlLlSR158eb2VWYAY2kkg7YgF3MtPEWn4JE-i50QXJr2LGwp4DVL-ClfViNxBq1RXh-yVPCJ3WPAFoME-27fSeu6bhEVU-kHbg3L0RQtbW2aWnnPRx6y0qaz1_FDt0D8vdSvhPtPf_4yZwLASJR9ta4O9v9d15QnWe5VvOfLoyP_R_S7VJtgqgPH4v4UjYEY4u_U87OrY_J_UhHWQFPC63olWaLJYaquUI=",)
 
 # Logging channel/group ID configuration.
-BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
+BOTLOG_CHATID = int(os.environ.get("-425936253"))
 
 # Userbot logging feature switch.
 BOTLOG = sb(os.environ.get("BOTLOG", "False"))
@@ -67,8 +67,8 @@ LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
 
 # Heroku Credentials for updater.
-HEROKU_APPNAME = os.environ.get("HEROKU_APPNAME", None)
-HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
+HEROKU_APPNAME = os.environ.get("aymen1212")
+HEROKU_APIKEY = os.environ.get("11787e5d-7bc0-415b-8b38-762ecffad5ce")
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
@@ -103,7 +103,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+ALIVE_NAME = os.environ.get("amaks",)
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", ""))
